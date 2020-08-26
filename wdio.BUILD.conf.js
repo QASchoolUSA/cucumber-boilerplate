@@ -4,17 +4,17 @@ const { config } = require('./wdio.conf.js');
 
 config.capabilities = [{
     browserName: 'chrome',
-    // 'goog:chromeOptions': {
-    //     args: [
-    //         '--disable-infobars',
-    //         '--window-size=1280,800',
-    //         '--headless',
-    //         '--no-sandbox',
-    //         '--disable-gpu',
-    //         '--disable-setuid-sandbox',
-    //         '--disable-dev-shm-usage',
-    //     ],
-    // },
+    'goog:chromeOptions': {
+        args: [
+            '--disable-infobars',
+            '--window-size=1280,800',
+            '--headless',
+            '--no-sandbox',
+            '--disable-gpu',
+            '--disable-setuid-sandbox',
+            '--disable-dev-shm-usage',
+        ],
+    },
 }];
 
 config.port = 9516;
