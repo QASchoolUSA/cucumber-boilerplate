@@ -24,7 +24,7 @@ When(
 );
 
 When(
-    /^I (add|set) "([^"]*)?" to the inputfield "([^"]*)?"$/,
+    /^I (add|enter) "([^"]*)?" to the textbox "([^"]*)?"$/,
     setInputField
 );
 
